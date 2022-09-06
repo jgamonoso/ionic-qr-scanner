@@ -32,7 +32,7 @@ export class MapaPage implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
 
-    mapboxgl.accessToken = 'pk.eyJ1Ijoia2xlcml0aCIsImEiOiJjanJlMWVnMWExdWFkM3lwZzBwMHRtaWU4In0.nH9Y2UtH05u1AhJEq3jHNw';
+    mapboxgl.accessToken = 'pk.eyJ1IjoiamdhbW9ub3NvIiwiYSI6ImNsN3EweWgwYjAwdm8zbnF1bnR1NXNneTcifQ.MGULMhI7UWmZH7qCQZpCwA';
 
     const map = new mapboxgl.Map({
         style: 'mapbox://styles/mapbox/light-v9',
